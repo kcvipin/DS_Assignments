@@ -1,6 +1,4 @@
 pandas==1.5.1
 streamlit >= 1.9.2
 numpy
-user_sim_df.sav
-most_sim_users.sav
-books_pivot.sav
+
