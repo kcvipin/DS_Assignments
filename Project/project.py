@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from pickle import load
+import pickle
 
 def add_bg_from_url():
     st.markdown(
@@ -25,9 +25,9 @@ add_bg_from_url()
 
 
 
-user_sim_df = load(open('user_sim_df.sav','rb'))
-most_sim_users = load(open('most_sim_users.sav','rb'))
-books_pivot = load(open('books_pivot.sav','rb'))
+user_sim_df = pickle.load(open('user_sim_df.sav','rb'))
+most_sim_users = pickle.load(open('most_sim_users.sav','rb'))
+books_pivot = pickle.load(open('books_pivot.sav','rb'))
 
 user_id_unique = most_sim_users.unique()
 user_id = sorted(user_id_unique)
