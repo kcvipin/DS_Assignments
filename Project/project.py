@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import pickle
+import numpy
 
 def add_bg_from_url():
     st.markdown(
