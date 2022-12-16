@@ -1,5 +1,0 @@
-pandas
-streamlit 
-pickle.load
-statsmodels.api
-matplotlib.pypolt
