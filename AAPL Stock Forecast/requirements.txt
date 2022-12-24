@@ -1,5 +1,0 @@
-pandas
-streamlit 
-pickle
-statsmodels
-matplotlib
